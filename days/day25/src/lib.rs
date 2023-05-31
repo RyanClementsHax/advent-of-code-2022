@@ -40,9 +40,8 @@ mod tests {
 
 #[derive(Debug)]
 pub struct SNAFU {
-    #[allow(dead_code)]
-    snafu_num: String,
-    decimal_num: i64
+    pub snafu_num: String,
+    pub decimal_num: i64
 }
 
 impl From<i64> for SNAFU {
